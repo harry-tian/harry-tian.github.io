@@ -35,12 +35,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:rgb(54, 51, 204);
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#999;
 }
 
 a small {
@@ -51,7 +51,7 @@ a small {
 }
 
 a:hover small {
-  color:#777;
+  color:#999;
 }
 
 .wrapper {
@@ -104,66 +104,57 @@ img {
 }
 
 header {
-  width:270px;
+  width:240px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
+footer ul {
   list-style:none;
-  height:40px;
+  height:37px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:215px;
 }
 
-header li {
-  width:89px;
+footer li {
+  width:70px;
   float:left;
   border-right:1px solid #e0e0e0;
-  height:40px;
+  height:37px;
 }
 
-header li:first-child a {
+footer li:first-child a {
   border-radius:5px 0 0 5px;
 }
 
-header li:last-child a {
+footer li:last-child a {
   border-radius:0 5px 5px 0;
 }
 
-header ul a {
-  line-height:1;
+footer ul a {
+  line-height:2;
   font-size:11px;
-  color:#999;
   display:block;
   text-align:center;
   padding-top:6px;
   height:34px;
 }
 
-header ul a:hover {
-  color:#999;
-}
-
-header ul a:active {
+footer ul a:active {
   background-color:#f0f0f0;
 }
 
-strong {
-  color:#222;
-  font-weight:500;
-}
 
-header ul li + li + li {
+footer ul li + li + li {
   border-right:none;
-  width:89px;
+  width:70px;
 }
 
-header ul a strong {
+footer ul a strong {
   font-size:14px;
   display:block;
   color:#222;
